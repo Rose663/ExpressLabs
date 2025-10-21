@@ -7,11 +7,6 @@ import Demo1 from "./pages/demo1"
 function App() {
   return (
     <BrowserRouter>
-      <nav>
-        <Link to="/">Inicio</Link> | 
-        <Link to="/demo1">Demo1</Link> 
-      </nav>
-
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/demo1" element={<Demo1 />} />
